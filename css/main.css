@@ -1,0 +1,84 @@
+/*Ian Botsford #8916536*/
+body{
+    width: 100vw;
+    max-width: 105vw;
+    margin: auto;
+    font: italic 600 25px  Helvetica serif;
+    Padding: 0.5vw;
+    color:hotpink;
+}
+
+header{
+    border: 10px dotted red;
+    border-radius: 25px;
+    margin: 1px;
+    padding: 3em;
+}
+
+footer{
+    border: 8px dashed purple;
+    border-radius: 25px;
+    margin: 1px;
+    padding: 10px;
+    clear:both;
+}
+
+h1{
+    color:darkgreen;
+    font-variant: small-caps;
+}
+
+h2{
+    color:darkorange;
+    font-variant: small-caps;
+}
+
+footer p{
+    font-size: 15px;
+    color:aqua;
+}
+
+main{
+    float:left;
+    clear: right;
+    width: 66vw;
+    padding: 4px;
+    margin: 1px;
+    
+}
+
+aside{
+    float: right;
+    width: 32vw;
+    padding: 5px;
+    margin: 1px;
+}
+
+.mainimg{
+    border: 6px ridge blue;
+}
+
+figcaption{
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 50px;
+
+}
+
+ul li{
+    line-height: 3vh;
+    list-style-type: none;
+}
+
+li > a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+a:hover{
+    color:lightcoral;
+}
