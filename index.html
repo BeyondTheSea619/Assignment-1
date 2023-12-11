@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Celebrity" content="Lil-Wayne">
-    <meta name="description" content="Biography about Lil-Wayne">
+    <meta name="Lil-Wayne" content="Biography about Lil-Wayne">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Lil Wayne Biography Page</title>
@@ -13,11 +13,25 @@
 <body>
     <header>
         <h1>Lil wayne</h1>
-
     </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html"> index</a></li>
+            <li><a href="contact.html"> contact</a></li>
+            <li>
+                <a href="media.html"> media</a>
+                <ul>
+                    <li><a href="gallery.html">gallery</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
     <main>
         <section>
             <h2>Biography</h2>
+
             <p>Lil wayne began selling his albums in 1999 and found initial success, but it wasn't until the 2000s that he started taking off.
                 It was at this point in 2004 when Wayne dropped 'Tha Carter' and shortly before releasing the album he founded Cash Money Records, his own record label.
                 This record label would go on to sign an up and coming <b>Drake and Nicki Minaj</b>. Meaning, if it was not for Wayne (also known as Weezy) we wouldn't have two of
@@ -29,14 +43,15 @@
 
         <section>
             <h2>Images</h2>
+
             <figure>
-                <img class= mainimg src="C:\School\Prog1245\Workspace\Git projects\Assignment\images/ab67616100005174c63aded6f4bf4d06d1377106.jpg" alt="Lil wayne posing for the camera">
-            <figcaption>Lil wayne is seen here posing for his Spotify profile picture.</figcaption>
+                <img class= mainimg src="C:\School\Prog1245\Workspace\Git projects\Assignment\images/ab67616100005174c63aded6f4bf4d06d1377106.jpg" alt="Lil wayne posing for the camera in a proffessional but joyous manner">
+                <figcaption>Lil wayne is seen here posing for his Spotify profile picture.</figcaption>
             </figure>
             
             <figure>
                 <img class= mainimg src="https://thesource.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-12-at-9.45.14-AM.png" alt="Lil wayne smiling while performing, as happy as can be">
-                <figcaption>Weezy is showing his true self by having so much fun in this photo!</figcaption>
+                <figcaption>Weezy is showing that he's able to be himself in this photo!</figcaption>
             </figure>
             
         </section>
@@ -45,15 +60,71 @@
             <h2>Quote</h2>
             <q cite="https://www.britannica.com/biography/Lil-Wayne">Lil Wayne is a Grammy Award-winning rapper who became one of the top-selling artists in hip-hop in the early 21st century. Lil Wayne is a Grammy Award-winning rapper who became one of the top-selling artists in hip-hop in the early 21st century. </q>
         </section>
+
     </main>
+    
     <aside>
-        <h2>Additional Information</h2>
+
+        <style>
+            aside{
+                background-image: url(images/WayneAside.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+
+        <h3>Additional Information</h3>
+
         <ul>
             <li><a href="https://www.britannica.com/biography/Lil-Wayne" target="_blank">Britannica's Biography</a></li>
             <li><a href="https://open.spotify.com/artist/55Aa2cqylxrFIXC767Z865?" target="_blank">Lil Wayne's Spotify</a></li>
             <li><a href="https://www.billboard.com/artist/lil-wayne/" target="_blank">Billboard's Biography</a></li>
         </ul>
+
     </aside>
+
+    <section>
+        <table>
+            <colgroup>
+                <col />
+                <col span="7">
+                <col />
+            </colgroup>
+            <caption>Lil Wayne most popular album drops</caption>
+            
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th><span>2000</span></th>
+                    <th><span>2002</span></th>
+                    <th><span>2004</span></th>
+                    <th><span>2005</span></th>
+                    <th><span>2006</span></th>
+                    <th><span>2008</span></th>
+                    <th><span>2010</span></th>
+                    <th><span>2011</span></th>
+    
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <th>Album Name</th>
+                    <td>Lights Out</td>
+                    <td>500 Degreez</td>
+                    <td>Tha Carter</td>
+                    <td>Tha Carter II</td>
+                    <td>Like Father, Like Son</td>
+                    <td>Tha Carter III</td>
+                    <td>I am Not A Human Being</td>
+                    <td>Tha Carter IV</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </section>
+    
     <footer>
         <p>&copy Ian Botsford 2023</p>
     </footer>
